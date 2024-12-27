@@ -10,7 +10,7 @@ export default bundleAnalyzer({
   eslint: {
     dirs: ["."],
   },
-  swcMinify: false,
+  swcMinify: true,
   images: {
     remotePatterns: [
       {
